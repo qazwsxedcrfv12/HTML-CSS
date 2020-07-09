@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+<title>Registration Form</title>
+</head>
+
+<body bgcolor="green">
+ <h1 align="center">Registration Form</h1>
+<hr>
+ <form>
+   <table cellspacing="0px" align="center" border="1px" cellpadding="1px">
+ 		<tr>
+ 		  <th>First Name </th>
+          <br>
+ 		  <td colspan=6><input type="text" name="NAME"></td>
+ 		</tr>
+
+ 		<tr>
+ 			<th>Last Name </th>
+ 		    <td colspan=6><input type="text" name="NAME"></td>
+ 		</tr>
+
+ 		<tr>
+ 			<th>Password</th>
+ 		    <td colspan=6><input type="password" name="pass"></td>
+ 		</tr>
+
+ 		<tr>
+ 		   <th>Course</th>
+ 		   <td><input type="checkbox" name="html">HTML</td>
+ 		   <td><input type="checkbox" name="css">CSS</td>
+ 		   <td><input type="checkbox" name="php">PHP</td>
+ 		   <td><input type="checkbox" name="js">JAVASCRIPT</td>
+ 		   <td><input type="checkbox" name="cpp">CPP</td>
+ 		   <td><input type="checkbox" name="python">PYTHON</td>
+ 		</tr>
+        <br>
+ 		<tr>
+ 			<th>Gender</th>
+ 			<td><input type="radio" name="gender">M</td>
+ 			<td><input type="radio" name="gender">F</td>
+ 			<td colspan=4></td>
+        </tr>
+
+        <tr>
+        	<th>City</th>
+        	<td><select>
+        		<option>Mumbai</option>
+        		<option>Delhi</option>
+                <option>Kolkata</option>
+                <option>Chennai</option>
+                <option>Goa</option>
+                <option>Surat</option></select>
+        </td>
+       </tr>
+
+        <tr>
+           <td align="center" colspan=7><input type="submit" value="Register"></td>
+        </tr>
+
+
+    </table>
+</form>
+</body>
+</html>
