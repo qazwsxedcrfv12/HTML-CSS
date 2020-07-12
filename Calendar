@@ -1,10 +1,29 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Calender</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calender</title>
+	<style>
+		body{
+			background-image: url(https://is.gd/ME6X5K);
+		}
+		table{
+			background-color: rgb(122, 233, 172);
+		}
+		h1{
+			background-image: url(https://is.gd/CvnlUG);
+			color: rgb(233, 220, 229);
+		}
+		h2{
+			color: rgb(199, 23, 140);
+			font-size: 35px;
+		}
+	</style>
 </head>
 
 <body bgcolor="grey">
-<h1>CALENDAR</h1>
+<h1>CALENDER</h1>
 <hr>
 <h2 align="center"><b>AUGUST</b></h2>
 <table border="2px" cellpadding="2px" cellspacing="0px" bgcolor="orange" align="center" border="2px">
@@ -68,7 +87,6 @@
 	<td colspan=5></td>
 </tr>
 <h2><img src="https://is.gd/CuDFQh" width="100px" heigth="150px"></h2>
-
 
 </body>
 </html>
