@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title</title>
+    <style>
+        body{
+            background-image: url(https://is.gd/gLhH9p);
+        }
+        form{
+            background-image: url(https://is.gd/FaR6Jc);
+            border-color: darkmagenta;
+        }
+        div{
+            color: cornsilk;
+        }
+        h1{
+            background-color: rgb(133, 101, 43);
+        }
+    </style>
 </head>
 <body bgcolor="grey" align="center" bottommargin="2px">
-      <h1 style="background: chartreuse;">Registration Form</h1>
+      <h1>Registration Form</h1>
     <form align="center" style="background-color: blueviolet;">
         <div>
             <label for="name"></label>
