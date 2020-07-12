@@ -6,17 +6,20 @@
 	<title>Calender</title>
 	<style>
 		body{
-			background-image: url(https://is.gd/ME6X5K);
+			background-image: url(https://is.gd/oy3JLS);
 		}
 		table{
-			background-color: rgb(122, 233, 172);
+			background-image: url(https://is.gd/ME6X5K);
+			color:red;
+			border-color: rgb(9, 123, 238);
+			border-radius: 15px;
 		}
 		h1{
 			background-image: url(https://is.gd/CvnlUG);
-			color: rgb(233, 220, 229);
+			color: rgb(206, 206, 190);
 		}
-		h2{
-			color: rgb(199, 23, 140);
+		h3{
+			background-image: url(https://is.gd/lgAtwB);
 			font-size: 35px;
 		}
 	</style>
@@ -25,13 +28,13 @@
 <body bgcolor="grey">
 <h1>CALENDER</h1>
 <hr>
-<h2 align="center"><b>AUGUST</b></h2>
-<table border="2px" cellpadding="2px" cellspacing="0px" bgcolor="orange" align="center" border="2px">
+<h2 align="center" style="color: red;"><b>AUGUST</b></h2>
+<table border="5px" cellpadding="2px" cellspacing="0px" bgcolor="orange" align="center" border="2px">
 <tr>
   <th>Sunday</th>
    <th>Monday</th>
     <th>Tuesday</th>
-      <th>Wedday</th>
+      <th>Wednesday</th>
         <th>Thrusday</th>
           <th>Friday</th>
             <th>Saturday</th>
@@ -86,7 +89,7 @@
 	<td><img src="https://is.gd/KI3hT5" width="70px" height="30px" border="2px"><br>Onam</td>
 	<td colspan=5></td>
 </tr>
-<h2><img src="https://is.gd/CuDFQh" width="100px" heigth="150px"></h2>
+<h3 align="center"><img src="https://is.gd/CuDFQh" width="100px" heigth="150px"></h3>
 
 </body>
 </html>
