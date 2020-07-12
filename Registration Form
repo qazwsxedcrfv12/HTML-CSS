@@ -18,6 +18,12 @@
         h1{
             background-color: rgb(133, 101, 43);
         }
+        #reg{
+            background-color: rgb(96, 244, 96);
+        }
+        #name{
+            background-color: rgb(96, 244, 96);
+        }
     </style>
 </head>
 <body bgcolor="grey" align="center" bottommargin="2px">
@@ -36,11 +42,11 @@
         </div>
         <br>
         <div>
-            Gender: M<input type="radio" name="man" > F<input type="radio" name="man"> Other<input type="radio" name="man">
+            Gender: M<input type="radio" name="man"> F<input type="radio" name="man"> Other<input type="radio" name="man">
         </div>
         <br>
         <div>
-            Email: <input type="email" name="email">
+            Email: <input type="email" name="email" id="reg">
         </div>
         <br>
         <div>
@@ -48,7 +54,7 @@
         </div>
         <br>
         <div>
-            Class: <input type="number" name="class1">
+            Class: <input type="number" name="class1" id="reg">
         </div>
         <br>
         <div>
@@ -74,7 +80,7 @@
         </div>
         <br>
         <div>
-           <strong>Click here to register:</strong> <input type="submit" value="Register">  <strong>Click here to reset: <input type="reset" value="Reset"></strong>
+           <strong>Click here to register:</strong> <input type="submit" value="Register" id="reg">  <strong>Click here to reset: <input type="reset" value="Reset" id="reg"></strong>
         </div>
     </form>
 </body>
