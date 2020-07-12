@@ -1,64 +1,66 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Registration Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title</title>
 </head>
-
-<body bgcolor="green">
- <h1 align="center">Registration Form</h1>
-<hr>
- <form>
-   <table cellspacing="0px" align="center" border="1px" cellpadding="1px">
- 		<tr>
- 		  <th>First Name </th>
-          <br>
- 		  <td colspan=6><input type="text" name="NAME"></td>
- 		</tr>
-
- 		<tr>
- 			<th>Last Name </th>
- 		    <td colspan=6><input type="text" name="NAME"></td>
- 		</tr>
-
- 		<tr>
- 			<th>Password</th>
- 		    <td colspan=6><input type="password" name="pass"></td>
- 		</tr>
-
- 		<tr>
- 		   <th>Course</th>
- 		   <td><input type="checkbox" name="html">HTML</td>
- 		   <td><input type="checkbox" name="css">CSS</td>
- 		   <td><input type="checkbox" name="php">PHP</td>
- 		   <td><input type="checkbox" name="js">JAVASCRIPT</td>
- 		   <td><input type="checkbox" name="cpp">CPP</td>
- 		   <td><input type="checkbox" name="python">PYTHON</td>
- 		</tr>
+<body bgcolor="grey" align="center" bottommargin="2px">
+      <h1 style="background: chartreuse;">Registration Form</h1>
+    <form align="center" style="background-color: blueviolet;">
+        <div>
+            <label for="name"></label>
+                Name: <input type="text" id="name" name="NAME">
+            </label>
+        </div>
         <br>
- 		<tr>
- 			<th>Gender</th>
- 			<td><input type="radio" name="gender">M</td>
- 			<td><input type="radio" name="gender">F</td>
- 			<td colspan=4></td>
-        </tr>
-
-        <tr>
-        	<th>City</th>
-        	<td><select>
-        		<option>Mumbai</option>
-        		<option>Delhi</option>
+        <div>
+            <label for="password">
+                Password:<input type="password" id="password" name="PASSWORD">
+            </label>
+        </div>
+        <br>
+        <div>
+            Gender: M<input type="radio" name="man" > F<input type="radio" name="man"> Other<input type="radio" name="man">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="email">
+        </div>
+        <br>
+        <div>
+            Phone no: <input type="text" name="no">
+        </div>
+        <br>
+        <div>
+            Class: <input type="number" name="class1">
+        </div>
+        <br>
+        <div>
+            City: <select>
+                <option>Delhi</option>
+                <option>Mumbai</option>
                 <option>Kolkata</option>
-                <option>Chennai</option>
-                <option>Goa</option>
-                <option>Surat</option></select>
-        </td>
-       </tr>
+                <option selected>Chennai</option>
+                <option>Chandigarh</option>
+                <option>Surat</option>
+                <option>Banglore</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Course: PHP<input type="checkbox" value="PHP">
+                    HTML<input type="checkbox" >
+                    CSS<input type="checkbox" >
+                    JAVASCRIPT<input type="checkbox" >
+                    BASH<input type="checkbox" >
+                    CPP<input type="checkbox" >
 
-        <tr>
-           <td align="center" colspan=7><input type="submit" value="Register"></td>
-        </tr>
-
-
-    </table>
-</form>
+        </div>
+        <br>
+        <div>
+           <strong>Click here to register:</strong> <input type="submit" value="Register">  <strong>Click here to reset: <input type="reset" value="Reset"></strong>
+        </div>
+    </form>
 </body>
 </html>
