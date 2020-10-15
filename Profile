@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        body{
+           background-color: darkorange;
+        }
+        h1{
+            background-color: rgb(11, 175, 184);
+        }
+        h2{
+            background-color: rgb(122, 233, 126);
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1 align="center">WelCoMe To my PrOfiLE</h1>
+    <h2 align="center">HEllo Fellas</h2>
+    <hr>
+    <p><strong>Name:</strong> Abhishek Kumar</p>
+    <p><strong>College: </strong>Indian Institute of Information Technology, Surat</p>
+    <p><strong>Branch: </strong>Electronics and Communication Engineering</p>
+    <p><strong>Email: </strong>ak7477637@gmail.com</p>
+    <p><strong>Technical Skills: </strong>C++, Python, Bash, Solidity, Javascript</p>
+    <p><strong>Web Skills: </strong>Html, CSS, Javascript, Tkinter, Pygame</p>
+    <p><strong>Technology: </strong>Blockchain, Cryptography</p>
+    <p><strong>Hobbies: </strong>Reading books, Playing vollyball, swimming, painting</p>
+    <p><strong>Contact No: </strong>9928044506</p>
+    </div>
+    <br>
+    <div align="center">
+        <h2>Competitive Profile</h2>
+        <p>Codechef: 1500 rating</p>
+        <p>Hackerrank: 5 star coder</p>
+        <p>Hackerearth: 1300 rating</p>
+        <img src="https://is.gd/npGt2X" alt="Image" height="100px" width="1800px">
+    </div>
+</body>
+</html>
