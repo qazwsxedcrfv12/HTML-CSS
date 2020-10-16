@@ -32,7 +32,11 @@
     <p><strong>Web Skills: </strong>Html, CSS, Javascript, Tkinter, Pygame</p>
     <p><strong>Technology: </strong>Blockchain, Cryptography</p>
     <p><strong>Hobbies: </strong>Reading books, Playing vollyball, swimming, painting</p>
-    <p><strong>Contact No: </strong>9928044506</p>
+    <details>
+        <summary><strong>Contact Details</strong></summary>
+        <strong>Phone No: </strong>9928044506 <br>
+        <strong>Email: </strong>ak7477637@gmail.com
+    </details>
     </div>
     <br>
     <div align="center">
@@ -40,7 +44,7 @@
         <p>Codechef: 1500 rating</p>
         <p>Hackerrank: 5 star coder</p>
         <p>Hackerearth: 1300 rating</p>
-        <img src="https://is.gd/npGt2X" alt="Image" height="100px" width="1800px">
+        <img src="https://is.gd/npGt2X" alt="Image" height="100px" width="1510px">
     </div>
 </body>
 </html>
