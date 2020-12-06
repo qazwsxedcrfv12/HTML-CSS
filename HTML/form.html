@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: brown;
+        }
+        h1{
+            background-color: chartreuse;
+            border: cornflowerblue;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 align="center">Registration Form</h1>
+    <hr>
+    <form action="back.php" align="center">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="myname" id="name" placeholder="Enter your name">
+        </div>
+        <br>
+        <div>
+            <label for="age">Age</label>
+           <input type="number" name="age" id="age">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="myemail" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="date" id="dob">
+        </div>
+        <br>
+        <div>
+            <label for="sub">Subject: </label>
+            CS <input type="checkbox" name="sel" id="sub" checked> ECE <input type="checkbox" id="sub" name="sel">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="gender"> Female <input type="radio" name="gender"> Others <input type="radio" name="gender">
+        </div>
+        <br>
+        <div>
+            <label for="car">Branch</label>
+            <select name="branch" id="car">
+                <option value="cs" selected>CS</option>
+                <option value="ece">ECE</option>
+                <option value="mech">Mechanical</option>
+                <option value="elec">Electrical</option>
+                <option value="civil">Civil</option>
+                <option value="aero">Aerospace</option>
+                <option value="production">Production</option>
+                <option value="meta">Mettalurgy</option>
+            </select>
+        </div>
+        <br>
+        <div>
+          <input type="submit" value="Click to Submit" align="center">
+        </div>
+    </form>
+</body>
+</html>

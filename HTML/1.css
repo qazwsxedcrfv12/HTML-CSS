@@ -1,0 +1,139 @@
+body {
+    background-image: url(https://is.gd/Jkdq1N);
+    color: aliceblue;
+}
+
+.head1 {
+    display: inline-block;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    background-color: black;
+}
+
+.head1 img {
+    width: 80px;
+    padding-left: 15px;
+    border-radius: 15px;
+}
+
+.head1 img:hover {
+    background-image: url(https://is.gd/5DmVmT);
+}
+
+.head1 div {
+    text-align: center;
+    color: greenyellow;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.head2 {
+    display: block;
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    background-image: url(https://is.gd/ePMHl8);
+}
+
+.head3 {
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    right: 25px;
+    width: 16%;
+}
+
+.navbar {
+    display: inline-block;
+    border: 2px solid rgb(205, 86, 50);
+    background-image: url(https://is.gd/kBvzqi);
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 10px;
+    padding-left: 25px;
+    font-size: 17px;
+}
+
+.navbar li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.head2 li a:hover {
+    color: gold;
+}
+
+.btn {
+    margin: 0px 3px;
+    background-color: grey;
+    color: honeydew;
+    padding: 4px 15px;
+    border-radius: 10px;
+    border: 2px solid red;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: lime;
+}
+
+.container h1 {
+    font-size: 30px;
+    margin: 80px 100px;
+    padding: 10px 15px;
+    color: turquoise;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fg input {
+    text-align: center;
+    display: block;
+    margin: 20px;
+    border: blue;
+    padding: 10px;
+    width: 250px;
+    background-color: yellow;
+}
+
+form {
+    padding-left: 100px;
+    margin: 10px 50px;
+    border-radius: 50px;
+    background-color: goldenrod;
+    width: 70px;
+    margin: 30px;
+}
+
+.container button {
+    display: block;
+    margin: auto;
+    width: 155px;
+    background-color: yellowgreen;
+    border: 2px solid red;
+    font-size: 20px;
+}
+
+.container button:hover {
+    background: red;
+    border-radius: 10px;
+}
+
+.fg input:hover {
+    background-color: tomato;
+    box-shadow: blue;
+    border-radius: 15px;
+}
+
+#tt {
+    font-size: 15px;
+    width: 150px;
+    background-color: royalblue;
+    border: 2px solid red;
+}
