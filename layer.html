@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layer</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h2{
+            text-align: center;
+            border: 2px solid black;
+            height: 36px;
+            background-color: rgb(238, 167, 74);
+            box-shadow:18px 9px 12px rgb(228, 68, 20);
+            margin-bottom: 56px;
+        }
+        .box{
+            display: flex;
+        }
+        .box-1{
+            display: flex;
+            border: 2px solid black;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-top: 34px;
+        }
+        #b1a,#b2a,#b3a,#b4a,#b5a,#b6a,#b7a{
+            width: 48vw;
+            height: 6vh;
+            border-radius: 12px;
+            color: whitesmoke;
+            font-size: 1.5rem;
+            transition: all 1s ease-in-out;
+            /* text-align: center; */
+        }
+        .b1b{
+            width: 50vw;
+            height: 4vh;
+            margin-top: 44px;
+            background-color: rgb(15, 153, 15);
+            font-size: 1.2rem;
+        }
+        .b1b:hover{
+            transform: scale(2);
+            background-color: rgb(149, 247, 209);
+        }
+        #b1a{
+            background-color: rgb(187, 177, 177);
+        }
+        #b2a{
+            background-color: limegreen;
+        }
+        #b3a{
+            background-color: rgb(245, 183, 68);
+        }
+        #b4a{
+            background-color: hotpink;
+        }
+        #b5a{
+            background-color: rgb(47, 201, 228);
+        }
+        #b6a{
+            background-color: rgb(119, 119, 241);
+        }
+        #b7a{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>7 LAYERS OF THE OSI MODEL</h2>
+    <div class="box">
+        <div class="box-1" id="b1a">APPLICATION LAYER</div>
+        <div class="box-1 b1b">
+            <p>* HTTP, FTP, IRC, SSH, DNS</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box-1" id="b2a">PRESENTATION LAYER</div>
+        <div class="box-1 b1b">
+            <p>* SSL, SSH, IMAP, FTP, MPEG</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box-1" id="b3a">SESSION LAYER</div>
+        <div class="box-1 b1b">
+            <p>* API'S, Sockets, WinSock</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box-1" id="b4a">TRANSPORT LAYER</div>
+        <div class="box-1 b1b">
+            <p>* TCP, UDP</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box-1" id="b5a">NETWORK LAYER</div>
+        <div class="box-1 b1b">
+            <p>* IP, ICMP, IPSec, IGMP</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box-1" id="b6a">DATA-LINK LAYER</div>
+        <div class="box-1 b1b">
+            <p>* Ethernet, PPP, Switch</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box-1" id="b7a">PHYSICAL LAYER</div>
+        <div class="box-1 b1b">
+            <p>* Coax, Fiber, Hubs, Wireless</p>
+        </div>
+    </div>
+</body>
+</html>
