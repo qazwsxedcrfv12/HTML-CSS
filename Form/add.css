@@ -1,0 +1,51 @@
+body {
+  background-image: url(form1.jpeg);
+}
+form {
+  margin: 2px;
+  background-image: url(form.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 10vw;
+  height: 66vh;
+}
+table {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+input {
+  text-align: center;
+  margin: 9px;
+  padding: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 2px solid rgb(8, 8, 6);
+  background-color: rgb(241, 177, 81);
+  border-radius: 8px;
+}
+input:hover {
+  background-color: rgb(248, 245, 240);
+}
+.con {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+a {
+  display: block;
+  border: 2px solid black;
+  background-color: rgb(223, 99, 10);
+  text-align: center;
+  text-decoration: none;
+  margin-top: 24px;
+  font-size: 1.5rem;
+  color: rgb(8, 6, 0);
+}
+a:hover {
+  background-color: rgb(238, 227, 220);
+  border-radius: 12px;
+}
+h1 {
+  color: yellow;
+  text-align: center;
+}
