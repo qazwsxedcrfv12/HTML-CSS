@@ -1,1 +1,218 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+    <style>
+        body{
+            background-color: peachpuff;
+        }
+        .navbar{
+            border:1px solid black;
+            background-color: grey;
+            border-radius: 29px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float: left;
+            margin: 5px;
+            padding: 9px;
+            list-style: none;
+            color: honeydew;
+            /* border-radius: 9px; */
+        }
+        .navbar li:hover{
+            background-color: rgb(13, 14, 13);
+            border-radius: 9px;
+        }
+        .con{
+            float: right;
+            /* margin: 9px; */
+            margin-right: 21px;
+            margin-top: 11px;
+            /* text-align: center; */
+        }
+        .con input{
+            text-align: center;
+        }
+        form{
+            border: 1px solid black;
+            width: 180px;
+            /* height: 292px; */
+            margin: auto;
+            margin-top: 35px;
+            text-align: center;
+            background-color: rgb(177, 172, 172);
+            border-radius: 19px;
+            /* align-items: center; */
+        }
+        input{
+            text-align: center;
+            margin: 16px;
+            padding: 2px;
+        }
+        .con1 input:hover{
+            background-color: rgb(240, 229, 208);
+        }
+        img{
+            width: 150px;
+        }
+        .container{
+            height: 200px;
+            width: 800px;
+            margin: 28px auto;
+            /* border: 1px solid red; */
+        }
+        .box{
+            /* width: 220px; */
+            display: inline-block;
+            margin-top: 9px;
+            margin-left: 38px;
+            text-align: center;
+            border: 1px solid black;
+            width: 200px;
+            border-radius: 23px;
+            background-color: rgb(252, 112, 112);
+        }
+        .box details:hover{
+            background-color: rgb(240, 229, 208);
+        }
+        .box li:hover{
+            background-color: rgb(236, 236, 18);
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li>About US</li>
+                <li>Services</li>
+                <li>Documentation</li>
+                <li>Contact Us</li>
+                <div class="con">
+                    <input type="text" name="" id="" placeholder="Search">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <h2>Food Items Menu</h2>
+    <div class="container">
+        <div class="box">
+           <h2>Non-Veg Food</h2>
+           <details>
+               <summary>Chicken Gravy Items</summary>
+               <ul>
+                   <li>Butter Chicken</li>
+                   <li>Chicken Korma</li>
+                   <li>Kadhai Chicken</li>
+                   <li>Chicken Muglai</li>
+                   <li>Chicken Afgani</li>
+                   <li>Chicken Chengezi</li>
+               </ul>
+               <img src="https://is.gd/Fo5kxP" alt="">
+           </details>
+           <details>
+               <summary>Chicken Snacks</summary>
+               <ul>
+                   <li>Chicken 65</li>
+                   <li>Chicken Pakora</li>
+                   <li>Chicken Lollipop</li>
+                   <li>Chicken Wings</li>
+                   <li>Tandori Chicken</li>
+                   <li>Chicken Roast</li>
+                </ul>
+                <img src="https://is.gd/iVXlsW" alt="">
+           </details>
+           <details>
+               <summary>Briyani</summary>
+               <ul>
+                   <li>Hydrabadi Briyani</li>
+                   <li>Lucknowi Briyani</li>
+                   <li>Calcutta Briyani</li>
+                   <li>Butter Chicken Briyani</li>
+               </ul>
+               <img src="https://is.gd/E6WzJ7" alt="">
+           </details>
+        </div>
+        < <div class="box">
+            <!-- <h2>Get Your Favourite Food</h2>  -->
+        </div> 
+           <div class="box">
+            <h2>Veg Foods</h2>
+            <details>
+                <summary>Veg Gravy Items</summary>
+                <ul>
+                    <li>Butter paneer</li>
+                    <li>Paneer Lababdar</li>
+                    <li>Kadhai Paneer</li>
+                    <li>Kaju Paneer Masala</li>
+                    <li>Cheese butter Masala</li>
+                    <li>Palak Paneer</li>
+                    <li>Chole Masala</li>
+                </ul>
+                <img src="https://is.gd/pZv9mi" alt="">
+            </details>
+            <details>
+                <summary>Snacks</summary>
+                <ul>
+                    <li>Achaari Paneer Tikka</li>
+                    <li>Paneer Besan Chills</li>
+                    <li>Paneer Anardana kebab</li>
+                    <li>Paneer Pakoda</li>
+                    <li>Paneer 65</li>
+                    <li>Paneer Chat</li>
+                    <li>Baked Paneer Samosa</li>
+                    <li>Aaloo Panner masala</li>
+                </ul>
+                <img src="https://is.gd/SiqTY2" alt="">
+            </details>
+                <details>
+                    <summary>Rice Items</summary>
+                    <ul>
+                        <li>Veg Briyani</li>
+                        <li>Jerra Rice</li>
+                        <li>Lucknowi Pulao</li>
+                        <li>Dum Briyani</li>
+                    </ul>
+                    <img src="https://is.gd/SiqTY2" alt="">
+                </details>
+        </div>
+    </div>
+    <form action="">
+        <div class="con1">
+           Name: <input type="text" name="" id="" placeholder="Enter your name">
+        </div>
+        <div class="con1">
+            Email: <input type="email" name="" id="" placeholder="Enter your email">
+        </div>
+        <div class="con1">
+            Age: <input type="text" name="" id="" placeholder="Enter your age">
+        </div>
+        <div class="con1">
+            Branch: <select name="" id="">
+                <option value="">Computer Science</option>
+                <option value="">Electronics</option>
+                <option value="">Mechanical</option>
+                <option value="">Civil</option>
+                <option value="">Electrical</option>
+                <option value="">Bio-Tech</option>
+            </select>
+        </div>
+        <div class="con1" id="co">
+            <input type="reset" value="Reset Now">
+        </div>
+        <div class="con1" id="co1">
+            <input type="submit" value="Submit Now">
+        </div>
+    </form>
+</body>
+</html>
