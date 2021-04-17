@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(110, 252, 193);
+  background-image: url("/FORM1/form.jpeg");
+  background-position: center center;
+  /* background-repeat: no-repeat; */
+}
+.box {
+  /* border: 2px solid red; */
+  width: 750px;
+  height: 500px;
+  margin: auto;
+  /* flex-direction: column-reverse; */
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(241, 184, 28);
+}
+.box1 {
+  border: 2px solid black;
+  margin: 9px;
+  text-align: center;
+  background-color: rgb(253, 184, 135);
+  /* display: flex; */
+  width: 180px;
+  justify-content: center;
+}
+#bo {
+  margin: 55px 18px;
+}
+#bo3 {
+  margin: 33px 15px;
+}
+#de:hover,
+#de1:hover {
+  background-color: rgb(238, 231, 231);
+}
+table {
+  background-color: blanchedalmond;
+  margin: 5px;
+}
+form {
+  width: 290px;
+  margin: 16px auto;
+  border: 1px solid black;
+  text-align: center;
+  background-color: rgb(192, 188, 188);
+  /* border-radius: 19px; */
+  /* justify-content: center; */
+}
+input {
+  margin: 12px;
+  padding: 2px;
+  width: 220px;
+  height: 1.7rem;
+  text-align: center;
+  border-radius: 5px;
+}
+h1 {
+  width: 280px;
+  margin: 18px auto;
+  border: 2px solid black;
+  background-color: rgb(241, 238, 30);
+  text-align: center;
+}
+li {
+  padding: 9px;
+}
+li:hover {
+  background-color: greenyellow;
+  cursor: pointer;
+}
