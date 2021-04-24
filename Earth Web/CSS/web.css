@@ -57,7 +57,7 @@ h1 {
   /* background-repeat: no-repeat; */
   /* opacity: .7; */
   padding: 7px;
-  color: ivory;
+  /* color: ivory; */
 }
 .earth img {
   width: 180px;
@@ -97,7 +97,7 @@ h1 {
   font-family: cursive;
   background-color: rgba(255, 255, 0, 0.986);
   /* background-size: 10%; */
-  /* opacity: .7; */
+  opacity: 0.92;
 }
 .hea h2 {
   opacity: 0.8;
@@ -112,7 +112,7 @@ h1 {
   border-radius: 29px;
   background-color: coral;
   padding: 9px;
-  opacity: 0.7;
+  /* opacity: 0.9; */
 }
 #med:hover {
   background-color: rgb(248, 151, 116);
