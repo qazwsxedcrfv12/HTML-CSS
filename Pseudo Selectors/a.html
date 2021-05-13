@@ -1,1 +1,80 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selector</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            /* background-repeat: no-repeat; */
+            background-color: black;
+            /* background-position: center center; */
+        }
+        header::before{
+            content: "";
+            background-image: url('https://source.unsplash.com/WLUHO9A_xik/1600x900');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 70%;
+            z-index: -1;
+            opacity: .8;
+        }
+      .navbar{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          background-color: black;
+          opacity: .6;
+      }
+      .navigation{
+          display: flex;
+      }
+      li{
+          margin: 12px;
+          padding: 13px;
+          margin-left: -19px;
+          list-style: none;
+          color: rgb(233, 144, 12);
+      }
+      .container{
+          margin-right: 23px;
+      }
+      .btn{
+          margin: 12px;
+          padding: 9px;
+      }
+      .con{
+          text-align: center;
+          height: 200px;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Email</li>
+                <li>Contact Us</li>
+            </ul>
+            <div class="container">
+                <button class="btn">Sign Up</button>
+                <button class="btn">Sign In</button>
+            </div>
+        </nav>
+    </header>
+    <div class="con">
+        <h2>Welcome to Tourist Place</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptatem commodi alias, et totam asperiores officiis animi quibusdam vitae ipsa quasi dolor voluptatibus recusandae, praesentium a, magnam consequuntur dolore! Provident.</p>
+    </div>
+</body>
+</html>
